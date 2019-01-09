@@ -1,0 +1,535 @@
+0:100  0:100  MemLog inited, TSC freq: 2494222633
+0:100  0:000  CPU was calibrated with ACPI PM Timer
+0:100  0:000  
+0:100  0:000  Now is 23.11.2018,  4:41:2 (GMT)
+0:100  0:000  Starting Clover revision: 4538 on American Megatrends EFI
+0:100  0:000  Build with: [Args: -mc --no-usb -D NO_GRUB_DRIVERS_EMBEDDED -t XCODE8 | -D DISABLE_USB_SUPPORT -D NO_GRUB_DRIVERS_EMBEDDED --conf=/Users/vagrant/src/edk2/Conf -D USE_BIOS_BLOCKIO -D USE_LOW_EBDA -a X64 -b RELEASE -t XCODE8 -n 3 | OS: 10.13.4 | XCODE: 9.3.1]
+0:100  0:000  SelfDevicePath=PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0xFFFF,0x0)\HD(1,GPT,5309394B-B42B-4A6E-8393-4A043DB32798,0x28,0x71FD8) @C6206018
+0:100  0:000  SelfDirPath = \EFI\CLOVER
+0:100  0:000  === [ Get Smbios ] ========================================
+0:100  0:000  Type 16 Index = 0
+0:100  0:000  Total Memory Slots Count = 4
+0:100  0:000  Type 17 Index = 0
+0:100  0:000  SmbiosTable.Type17->Speed = 1600MHz
+0:100  0:000  SmbiosTable.Type17->Size = 4096MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 0 ChannelA-DIMM0
+0:100  0:000  SmbiosTable.Type17->Vendor = 1315
+0:100  0:000  SmbiosTable.Type17->SerialNumber = 22350000
+0:100  0:000  SmbiosTable.Type17->PartNumber = CT51264BF160BJ.C8F
+0:100  0:000  Type 17 Index = 1
+0:100  0:000  Ignoring insane frequency value 0MHz
+0:100  0:000  SmbiosTable.Type17->Speed = 0MHz
+0:100  0:000  SmbiosTable.Type17->Size = 0MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 1 ChannelA-DIMM1
+0:100  0:000  SmbiosTable.Type17->Vendor = <null string>
+0:100  0:000  SmbiosTable.Type17->SerialNumber = <null string>
+0:100  0:000  SmbiosTable.Type17->PartNumber = <null string>
+0:100  0:000  Type 17 Index = 2
+0:100  0:000  SmbiosTable.Type17->Speed = 1600MHz
+0:100  0:000  SmbiosTable.Type17->Size = 4096MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 2 ChannelB-DIMM0
+0:100  0:000  SmbiosTable.Type17->Vendor = 1315
+0:100  0:000  SmbiosTable.Type17->SerialNumber = FFFFFFFF
+0:100  0:000  SmbiosTable.Type17->PartNumber =                   
+0:100  0:000  Type 17 Index = 3
+0:100  0:000  Ignoring insane frequency value 0MHz
+0:100  0:000  SmbiosTable.Type17->Speed = 0MHz
+0:100  0:000  SmbiosTable.Type17->Size = 0MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 3 ChannelB-DIMM1
+0:100  0:000  SmbiosTable.Type17->Vendor = <null string>
+0:100  0:000  SmbiosTable.Type17->SerialNumber = <null string>
+0:100  0:000  SmbiosTable.Type17->PartNumber = <null string>
+0:100  0:000  Boot status=0
+0:100  0:000  Running on: 'CW65S' with board 'W65_67SJ '
+0:100  0:000  === [ GetCPUProperties ] ==================================
+0:100  0:000  CPU Vendor = 756E6547 Model=306C3
+0:100  0:000   The CPU supported SSE4.1
+0:100  0:000  BrandString = Intel(R) Core(TM) i7-4710MQ CPU @ 2.50GHz
+0:100  0:000   The CPU supported turbo
+0:100  0:000  MSR 0x35               40008
+0:100  0:000  MSR 0xE2 before patch 1E008405
+0:100  0:000  MSR 0xE2 is locked, PM patches will be turned on
+0:100  0:000  MSR 0xCE              00080838_F3011900
+0:100  0:000  corrected FLEX_RATIO = 40000
+0:100  0:000  MSR 0x1B0             00000000
+0:100  0:000  FSBFrequency = 100 MHz, DMI FSBFrequency = 100 MHz, Corrected FSBFrequency = 100 MHz
+0:100  0:000  MaxDiv/MinDiv: 25.0/8
+0:100  0:000  Turbo: 33/33/34/35
+0:100  0:000  Features: 0xBFEBFBFF
+0:100  0:000  Threads: 8
+0:100  0:000  Cores: 4
+0:100  0:000  FSB: 100 MHz
+0:100  0:000  CPU: 2500 MHz
+0:100  0:000  TSC: 2500 MHz
+0:100  0:000  PIS: 100 MHz
+0:100  0:000  ExternalClock: 25 MHz
+0:100  0:000  === [ GetDevices ] ========================================
+0:100  0:000  PCI (00|00:00.00) : 8086 0C04 class=060000
+0:100  0:000  PCI (00|00:01.00) : 8086 0C01 class=060400
+0:100  0:000  PCI (00|01:00.00) : 10DE 1391 class=030200
+0:100  0:000  PCI (00|00:02.00) : 8086 0416 class=030000
+0:100  0:000   - GFX: Model=Intel HD Graphics 4600 (Intel)
+0:100  0:000  PCI (00|00:03.00) : 8086 0C0C class=040300
+0:100  0:000  PCI (00|00:14.00) : 8086 8C31 class=0C0330
+0:100  0:000  PCI (00|00:16.00) : 8086 8C3A class=078000
+0:100  0:000  PCI (00|00:16.01) : FFFF FFFF class=FFFFFF
+0:100  0:000  PCI (00|00:1A.00) : 8086 8C2D class=0C0320
+0:100  0:000  PCI (00|00:1B.00) : 8086 8C20 class=040300
+0:100  0:000  PCI (00|00:1C.00) : 8086 8C10 class=060400
+0:100  0:000  PCI (00|00:1C.02) : 8086 8C14 class=060400
+0:100  0:000  PCI (00|03:00.00) : 168C 0034 class=028000
+0:100  0:000   - WIFI: Vendor=Atheros
+0:100  0:000  PCI (00|00:1C.03) : 8086 8C16 class=060400
+0:100  0:000  PCI (00|04:00.00) : 10EC 5289 class=FF0000
+0:100  0:000  PCI (00|04:00.02) : 10EC 8168 class=020000
+0:100  0:000   - LAN: 0 Vendor=Realtek
+0:100  0:000  PCI (00|00:1D.00) : 8086 8C26 class=0C0320
+0:100  0:000  PCI (00|00:1F.00) : 8086 8C49 class=060100
+0:100  0:000  PCI (00|00:1F.02) : 8086 8C03 class=010601
+0:100  0:000  PCI (00|00:1F.03) : 8086 8C22 class=0C0500
+0:100  0:000  PCI (00|00:1F.06) : FFFF FFFF class=FFFFFF
+0:100  0:000  === [ GetDefaultSettings ] ================================
+0:100  0:000  Clover load options size = 0 bytes
+0:103  0:003  EFI\CLOVER\config.plist loaded: Success
+0:133  0:030  === [ GetListOfThemes ] ===================================
+0:134  0:001  - [00]: Beauty
+0:135  0:001  - [01]: Blur
+0:136  0:001  - [02]: Mavs Style
+0:137  0:001  === [ Found config plists ] ===============================
+0:137  0:000  - config.plist
+0:138  0:000  === [ GetEarlyUserSettings ] ==============================
+0:138  0:000  timeout set to 5
+0:138  0:000  Custom boot CUSTOM_BOOT_DISABLED (0x0)
+0:138  0:000  ForceKextsToLoad: 1 requested
+0:138  0:000   - [0]: System\Library\Extensions\IONetworkingFamily.kext
+0:138  0:000  KextsToPatch: 21 requested
+0:138  0:000   - [00]: AppleHDA (Expect 4 matches) :: BinPatch :: data len: 4
+0:138  0:000   - [01]: AppleHDA (Expect 4 matches) :: BinPatch :: data len: 15
+0:138  0:000   - [02]: disabled:AppleIntelFramebufferAzul (HDMI-audio, port 0105, 0x0a2e0008, 0x0a16000c, 0x0a2e000d, 0x0a26000d) :: BinPatch :: data len: 12
+0:138  0:000   - [03]: disabled:AppleIntelFramebufferAzul (HDMI-audio, port 0204(12), 0x0a260005 0x0a260006) :: BinPatch :: data len: 12
+0:138  0:000   - [04]: AppleHDA (Expect 4 matches) :: BinPatch :: data len: 4
+0:138  0:000   - [05]: AppleIntelFramebufferAzul (Enable 9MB cursor bytes, 0x0a260006) :: BinPatch :: data len: 20
+0:138  0:000   - [06]: disabled:AppleIntelFramebufferAzul (HDMI-audio, port 0105, 0x0a260005 0x0a260006, 0x0d220003, 0x0a2e000a, 0x0a26000a) :: BinPatch :: data len: 12
+0:138  0:000   - [07]: disabled:AppleIntelFramebufferAzul (Enable 128MB DVMT-prealloc, 0x0a2e0008) :: BinPatch :: data len: 12
+0:138  0:000   - [08]: AppleUSBXHCIPCI (remove port limit) :: BinPatch :: data len: 6
+0:138  0:000   - [09]: disabled:AppleIntelFramebufferAzul (HDMI-audio, port 0105(12), 0x0a2e0008, 0x0a16000c, 0x0a2e000d, 0x0a26000d) :: BinPatch :: data len: 12
+0:138  0:000   - [10]: disabled:AppleIntelFrameBufferAzul (Enable internal display after sleep for 0x0a2e000a, 0x0a26000a) :: BinPatch :: data len: 16
+0:138  0:000   - [11]: disabled:AppleIntelFramebufferAzul (HDMI-audio, port 0204, 0x0a2e0008, 0x0a16000c, 0x0a2e000d, 0x0a26000d) :: BinPatch :: data len: 12
+0:138  0:000   - [12]: disabled:IOGraphicsFamily (Boot graphics glitch, 10.10.x/10.11.x (credit lisai9093, cecekpawon)) :: BinPatch :: data len: 5
+0:138  0:000   - [13]: disabled:IOGraphicsFamily (Boot graphics glitch, 10.10.2/10.10.3) :: BinPatch :: data len: 5
+0:138  0:000   - [14]: disabled:AppleIntelFramebufferAzul (HDMI-audio, port 0204, 0x0a260005 0x0a260006) :: BinPatch :: data len: 12
+0:138  0:000   - [15]: disabled:AppleIntelFramebufferAzul (Enable 96MB DVMT-prealloc, 0x0a2e0008) :: BinPatch :: data len: 12
+0:138  0:000   - [16]: disabled:AppleIntelFramebufferAzul (HDMI-audio, port 0204(12), 0x0a2e0008, 0x0a16000c, 0x0a2e000d, 0x0a26000d) :: BinPatch :: data len: 12
+0:138  0:000   - [17]: disabled:AppleIntelFramebufferAzul (Enable 128MB DVMT-prealloc, 48MB framebuffer, 48MB cursor bytes, 0x0a260006) :: BinPatch :: data len: 20
+0:138  0:000   - [18]: disabled:AppleIntelFramebufferAzul (HDMI-audio, port 0105(12), 0x0a260005 0x0a260006, 0x0d220003, 0x0a2e000a, 0x0a26000a) :: BinPatch :: data len: 12
+0:138  0:000   - [19]: IOGraphicsFamily (10.12+-Á¨¨‰∫åÈò∂ÊÆµËä±Â±èË°•‰∏Å) :: MatchOS: 10.12.x :: BinPatch :: data len: 5
+0:138  0:000   - [20]: IOGraphicsFamily (10.13+-Á¨¨‰∫åÈò∂ÊÆµËä±Â±èË°•‰∏Å) :: MatchOS: 10.13.x :: BinPatch :: data len: 5
+0:138  0:000  Default theme: Blur
+0:138  0:000  Hiding entries with string Recovery
+0:138  0:000  Hiding entries with string Preboot
+0:138  0:000  Custom entry boot CUSTOM_BOOT_APPLE (0x0)
+0:138  0:000   Custom EDID is ok
+0:138  0:000  === [ LoadDrivers ] =======================================
+0:138  0:000  Loading APFS.EFI  status=Success
+0:141  0:002   - driver needs connecting
+0:141  0:000  Loading Fat-64.efi  status=Success
+0:142  0:000   - driver needs connecting
+0:142  0:000  Loading FirmwareVolume-64.efi  status=Success
+0:142  0:000  Loading FSInject-64.efi  status=Success
+0:143  0:000  Loading HFSPlus-64.efi  status=Success
+0:144  0:000   - driver needs connecting
+0:144  0:000  Loading NTFS.EFI  status=Success
+0:145  0:001   - driver needs connecting
+0:145  0:000  Loading OsxAptioFixDrv-64.efi  status=Success
+0:146  0:000  Loading PartitionDxe-64.efi  status=Success
+0:147  0:000   - driver needs connecting
+0:147  0:000  5 drivers needs connecting ...
+0:147  0:000  PlatformDriverOverrideProtocol not found. Installing ... Success
+0:147  0:000  Partition driver loaded: 
+0:147  0:000  HFS+ driver loaded
+0:147  0:000  APFS driver loaded
+0:147  0:000  Searching for invalid DiskIo BY_DRIVER connects: not found, all ok
+0:777  0:630  === [ InitScreen ] ========================================
+0:777  0:000  SetScreenResolution: 1920x1080 - already set
+0:777  0:000  Console modes reported: 4, available modes:
+0:777  0:000   - [01]: 80x25 (current mode)
+0:777  0:000   - [02]: 80x50
+0:777  0:000   - [03]: 100x31
+0:777  0:000   - [04]: 240x56
+0:777  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0xFFFF,0x0)\HD(1,GPT,5309394B-B42B-4A6E-8393-4A043DB32798,0x28,0x71FD8)
+0:777  0:000  === [ GetMacAddress ] =====================================
+0:777  0:000  MAC address of LAN #0= 80:FA:5B:0D:C3:B0:
+0:777  0:000  === [ ScanSPD ] ===========================================
+0:777  0:000  SMBus device : 8086 8C22 class=0C0500 status=Success
+0:777  0:000  SMBus CmdReg: 0x3
+0:777  0:000  Scanning SMBus [8086:8C22], mmio: 0xF7A19004, ioport: 0xF040, hostc: 0x11
+0:777  0:000  Slots to scan [8]...
+0:778  0:000  SPD[0]: Type 11 @0x50
+0:796  0:018  Not using XMP because it is not present
+0:796  0:000  DDR speed 1600MHz
+0:796  0:000  Slot: 0 Type 24 4096MB 1600MHz Vendor=Crucial Technology PartNo=CT51264BF160BJ.C8F SerialNo=0202030500000000
+0:796  0:000  SPD[2]: Type 11 @0x52
+0:806  0:010  Not using XMP because it is not present
+0:806  0:000  DDR speed 1600MHz
+0:806  0:000  Slot: 2 Type 24 4096MB 1600MHz Vendor=NoName PartNo= SerialNo=0F0F0F0F0F0F0F0F
+0:807  0:000  === [ GetAcpiTablesList ] =================================
+0:837  0:030  Get Acpi Tables List from RSDT:
+0:837  0:000   - [00]: FACP  PARADISE len=132
+0:837  0:000   - [01]: APIC  PARADISE len=146
+0:837  0:000   - [02]: FPDT  A M I len=68
+0:837  0:000   - [03]: ASF!   HCG len=165
+0:837  0:000   - [04]: SLIC  PARADISE len=374
+0:837  0:000   - [05]: SSDT  PARADISE len=3986
+0:837  0:000   - [06]: SSDT  PARADISE len=1337
+0:837  0:000   - [07]: SSDT  PARADISE len=2776
+0:837  0:000   - [08]: MCFG  PARADISE len=60
+0:837  0:000   - [09]: HPET  PARADISE len=56
+0:837  0:000   - [10]: SSDT  PARADISE len=789
+0:837  0:000   - [11]: SSDT  PARADISE len=7245
+0:837  0:000   - [12]: SSDT  PARADISE len=3886
+0:837  0:000   - [13]: SSDT  PARADISE len=7220
+0:837  0:000   - [14]: BGRT  PARADISE len=56
+0:837  0:000  Calibrated TSC Frequency = 2494222633 = 2494MHz
+0:837  0:000  === [ GetUserSettings ] ===================================
+0:837  0:000   Custom EDID is ok
+0:837  0:000  Can't install EdidOverride on ImageHandle
+0:837  0:000  USB FixOwnership: yes
+0:837  0:000  Dropping 1 tables:
+0:837  0:000   - [00]: Drop table  signature="DMAR" (52414D44)
+0:837  0:000           - set table: 52414D44,                0 to drop: no
+0:837  0:000   - final DSDT Fix mask=10000000
+0:837  0:000  PluginType: 1
+0:837  0:000  Using ProductName from config: MacBookAir7,2
+0:837  0:000  Using latest BiosVersion from config
+0:837  0:000  BiosVersion: MBA71.88Z.0180.B00.1809171321
+0:837  0:000  BiosReleaseDate: 09/17/2018
+0:837  0:000  Using FirmwareFeatures from config: 0xE00FE137
+0:837  0:000  Using FirmwareFeaturesMask from config: 0xFF1FFF3F
+0:837  0:000  Board-ID set from config as Mac-937CB26E2E02BB01
+0:837  0:000  BoardType: 0xA
+0:837  0:000  ChassisType: 0x9
+0:837  0:000  Converted CustomUUID B0BC2025-B353-5CE3-A2D3-8C96ABB955F2
+0:839  0:002  === [ Found DSDT tables ] =================================
+0:840  0:000  - DSDT.AML
+0:941  0:101  === [ ScanVolumes ] =======================================
+0:941  0:000  Found 22 volumes with blockIO
+0:941  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)
+0:941  0:000  - [01]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0xFFFF,0x0)
+0:942  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x5,0xFFFF,0x0)
+0:943  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,5FDE1B17-28DD-43AF-B43A-4221AFF8D4D6,0x28,0x424C0F68)
+0:943  0:000          Result of bootcode detection: bootable Windows (vista,win)
+0:944  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,E871FAB6-718D-4421-B02D-C20267FD0AA3,0x424C0F90,0xEBD6300)
+0:944  0:000          Result of bootcode detection: bootable Windows (vista,win)
+0:945  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(3,GPT,A526B9DE-77EE-4CDF-9143-688D21A61CAC,0x51097290,0x6402570)
+0:945  0:000          Result of bootcode detection: bootable Windows (vista,win)
+0:946  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(4,GPT,E760A3E4-2BEF-44ED-8F90-C40FDB23CE38,0x57499800,0x37ED258)
+0:946  0:000  - [07]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(5,GPT,456C65BF-F5FB-4CF5-84F4-F38E72BF7651,0x5ACC6A58,0xDF7CDA8)
+0:947  0:000  - [08]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(6,GPT,D5454EE7-8390-4159-9D34-DCE0DE2FF8D3,0x68C83800,0x82A2000)
+0:947  0:000  - [09]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(7,GPT,A3521038-5760-4AA8-9147-7A5AB57FE7D7,0x70F25800,0xF42800)
+0:948  0:000  - [10]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0xFFFF,0x0)\HD(1,GPT,5309394B-B42B-4A6E-8393-4A043DB32798,0x28,0x71FD8)
+0:949  0:000          Result of bootcode detection: bootable Windows (vista,win)
+0:952  0:003          This is SelfVolume !!
+0:952  0:000  - [11]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0xFFFF,0x0)\HD(2,GPT,C322F3B2-CB51-43D1-A6AA-165660404B2C,0x72000,0xFA000)
+0:952  0:000  - [12]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0xFFFF,0x0)\HD(3,GPT,73D2269A-1AC8-453B-A0AB-5AF65E105139,0x16C800,0x76EF3A0)
+0:953  0:000          Result of bootcode detection: bootable Windows (vista,win)
+0:953  0:000  - [13]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0xFFFF,0x0)\HD(4,GPT,969D92B3-788E-4504-A536-F13464DBC3C6,0x785C000,0x110000)
+0:954  0:000          Result of bootcode detection: bootable Windows (vista,win)
+0:954  0:000  - [14]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0xFFFF,0x0)\HD(5,GPT,7A5600FC-14ED-4DF9-BD9E-83257F72FD63,0x796C008,0x7510287)
+0:955  0:000          Result of bootcode detection: bootable Windows (vista,win)
+0:956  0:000  - [15]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x5,0xFFFF,0x0)\HD(1,GPT,1F1D26ED-CFB8-41A7-8823-B020318B646B,0x800,0x2712800)
+0:956  0:000  - [16]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x5,0xFFFF,0x0)\HD(2,GPT,BAF9B16B-CD75-4966-AE0F-3EE1BCE7DBFE,0x2713000,0x4880800)
+0:957  0:000  - [17]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x5,0xFFFF,0x0)\HD(3,GPT,16E8C12E-B10E-4A8B-8585-8E9922E7292E,0x209BBFA0,0x174876E8)
+0:957  0:000          Result of bootcode detection: bootable unknown (legacy)
+0:957  0:000  - [18]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x5,0xFFFF,0x0)\HD(3,GPT,16E8C12E-B10E-4A8B-8585-8E9922E7292E,0x209BBFA0,0x174876E8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,C9438C3F511DB54D92E5BD0B35B4B49F)
+0:957  0:000          hiding this volume
+0:957  0:000  - [19]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x5,0xFFFF,0x0)\HD(3,GPT,16E8C12E-B10E-4A8B-8585-8E9922E7292E,0x209BBFA0,0x174876E8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,412D2A394934513F96003051C6EB1AA5)
+0:957  0:000  - [20]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x5,0xFFFF,0x0)\HD(3,GPT,16E8C12E-B10E-4A8B-8585-8E9922E7292E,0x209BBFA0,0x174876E8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,92C081DF9A2B1A4C99936C4037F6B68F)
+0:957  0:000          hiding this volume
+0:957  0:000  - [21]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x5,0xFFFF,0x0)\HD(3,GPT,16E8C12E-B10E-4A8B-8585-8E9922E7292E,0x209BBFA0,0x174876E8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,FB0F8B1551529C40AC597FA371FB4512)
+0:957  0:000  === [ InitTheme ] =========================================
+0:962  0:004  Using theme 'Blur' (EFI\CLOVER\themes\Blur)
+0:962  0:000  theme Blur defined in NVRAM found and theme.plist parsed
+0:962  0:000  OS main and drive as badge
+0:965  0:002  Loading font from ThemeDir: Success
+0:965  0:000  Chosen theme Blur
+0:965  0:000  found boot-args in NVRAM:, size=1
+0:966  0:000  after NVRAM boot-args= nv_disable=1 -shikibeta darkwake=0 -igfxbeta -lilubeta
+0:966  0:000  === [ Dump SMC keys from NVRAM ] ==========================
+0:966  0:000  no AppleSMC protocol
+0:986  0:020  === [ AddCustomEntries ] ==================================
+0:986  0:000  Custom entry 0 FullTitle:"windows10" Path:"\EFI\Microsoft\Boot\bootmgfw.efi" Options:"-s -h" Type:7 Flags:0x0 matching Volume:"5309394B-B42B-4A6E-8393-4A043DB32798"
+0:986  0:000      Checking volume "ác" (PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,5FDE1B17-28DD-43AF-B43A-4221AFF8D4D6,0x28,0x424C0F68)) ... skipped
+0:986  0:000      Checking volume "qÛ" (PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,E871FAB6-718D-4421-B02D-C20267FD0AA3,0x424C0F90,0xEBD6300)) ... skipped
+0:986  0:000      Checking volume "}" (PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(3,GPT,A526B9DE-77EE-4CDF-9143-688D21A61CAC,0x51097290,0x6402570)) ... skipped
+0:986  0:000      Checking volume "mac" (PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(4,GPT,E760A3E4-2BEF-44ED-8F90-C40FDB23CE38,0x57499800,0x37ED258)) ... skipped
+0:986  0:000      Checking volume "time" (PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(5,GPT,456C65BF-F5FB-4CF5-84F4-F38E72BF7651,0x5ACC6A58,0xDF7CDA8)) ... skipped
+0:986  0:000      Checking volume "EFI" (PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0xFFFF,0x0)\HD(1,GPT,5309394B-B42B-4A6E-8393-4A043DB32798,0x28,0x71FD8)) ... match!
+0:994  0:008  Custom settings: <null string>.plist will  be applied
+0:994  0:000      Checking volume "˚ﬂ" (PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0xFFFF,0x0)\HD(3,GPT,73D2269A-1AC8-453B-A0AB-5AF65E105139,0x16C800,0x76EF3A0)) ... skipped
+0:994  0:000      Checking volume "" (PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0xFFFF,0x0)\HD(4,GPT,969D92B3-788E-4504-A536-F13464DBC3C6,0x785C000,0x110000)) ... skipped
+0:994  0:000      Checking volume "oˆ" (PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0xFFFF,0x0)\HD(5,GPT,7A5600FC-14ED-4DF9-BD9E-83257F72FD63,0x796C008,0x7510287)) ... skipped
+0:994  0:000      Checking volume "Preboot" (PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x5,0xFFFF,0x0)\HD(3,GPT,16E8C12E-B10E-4A8B-8585-8E9922E7292E,0x209BBFA0,0x174876E8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,C9438C3F511DB54D92E5BD0B35B4B49F)) ... skipped because volume is hidden
+0:994  0:000      Checking volume "High Sierra" (PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x5,0xFFFF,0x0)\HD(3,GPT,16E8C12E-B10E-4A8B-8585-8E9922E7292E,0x209BBFA0,0x174876E8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,412D2A394934513F96003051C6EB1AA5)) ... skipped
+0:994  0:000      Checking volume "Recovery" (PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x5,0xFFFF,0x0)\HD(3,GPT,16E8C12E-B10E-4A8B-8585-8E9922E7292E,0x209BBFA0,0x174876E8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,92C081DF9A2B1A4C99936C4037F6B68F)) ... skipped because volume is hidden
+0:994  0:000      Checking volume "VM" (PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x5,0xFFFF,0x0)\HD(3,GPT,16E8C12E-B10E-4A8B-8585-8E9922E7292E,0x209BBFA0,0x174876E8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,FB0F8B1551529C40AC597FA371FB4512)) ... skipped
+0:994  0:000  Custom entry 1 FullTitle:"high sierra" Path:"\System\Library\CoreServices\boot.efi" Type:1 Flags:0xE matching Volume:"16E8C12E-B10E-4A8B-8585-8E9922E7292E"
+0:994  0:000      Checking volume "ác" (PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,5FDE1B17-28DD-43AF-B43A-4221AFF8D4D6,0x28,0x424C0F68)) ... skipped
+0:994  0:000      Checking volume "qÛ" (PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,E871FAB6-718D-4421-B02D-C20267FD0AA3,0x424C0F90,0xEBD6300)) ... skipped
+0:994  0:000      Checking volume "}" (PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(3,GPT,A526B9DE-77EE-4CDF-9143-688D21A61CAC,0x51097290,0x6402570)) ... skipped
+0:994  0:000      Checking volume "mac" (PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(4,GPT,E760A3E4-2BEF-44ED-8F90-C40FDB23CE38,0x57499800,0x37ED258)) ... skipped
+0:994  0:000      Checking volume "time" (PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(5,GPT,456C65BF-F5FB-4CF5-84F4-F38E72BF7651,0x5ACC6A58,0xDF7CDA8)) ... skipped
+0:994  0:000      Checking volume "EFI" (PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0xFFFF,0x0)\HD(1,GPT,5309394B-B42B-4A6E-8393-4A043DB32798,0x28,0x71FD8)) ... skipped
+0:994  0:000      Checking volume "˚ﬂ" (PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0xFFFF,0x0)\HD(3,GPT,73D2269A-1AC8-453B-A0AB-5AF65E105139,0x16C800,0x76EF3A0)) ... skipped
+0:994  0:000      Checking volume "" (PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0xFFFF,0x0)\HD(4,GPT,969D92B3-788E-4504-A536-F13464DBC3C6,0x785C000,0x110000)) ... skipped
+0:994  0:000      Checking volume "oˆ" (PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0xFFFF,0x0)\HD(5,GPT,7A5600FC-14ED-4DF9-BD9E-83257F72FD63,0x796C008,0x7510287)) ... skipped
+0:994  0:000      Checking volume "Preboot" (PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x5,0xFFFF,0x0)\HD(3,GPT,16E8C12E-B10E-4A8B-8585-8E9922E7292E,0x209BBFA0,0x174876E8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,C9438C3F511DB54D92E5BD0B35B4B49F)) ... skipped because volume is hidden
+0:994  0:000      Checking volume "High Sierra" (PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x5,0xFFFF,0x0)\HD(3,GPT,16E8C12E-B10E-4A8B-8585-8E9922E7292E,0x209BBFA0,0x174876E8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,412D2A394934513F96003051C6EB1AA5)) ... match!
+1:039  0:044      Check if volume Is Hibernated:
+1:039  0:000      Check sleep image 'by signature':
+1:068  0:029      read prefs \Library\Preferences\com.apple.PowerManagement.plist status=Success
+1:068  0:000      using default sleep image name = \private\var\vm\sleepimage
+1:087  0:018      sleepimage not found -> Not Found
+1:087  0:000      hibernated: no - sign
+1:089  0:002  Custom settings: <null string>.plist will  be applied
+1:091  0:001      Checking volume "Recovery" (PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x5,0xFFFF,0x0)\HD(3,GPT,16E8C12E-B10E-4A8B-8585-8E9922E7292E,0x209BBFA0,0x174876E8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,92C081DF9A2B1A4C99936C4037F6B68F)) ... skipped because volume is hidden
+1:091  0:000      Checking volume "VM" (PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x5,0xFFFF,0x0)\HD(3,GPT,16E8C12E-B10E-4A8B-8585-8E9922E7292E,0x209BBFA0,0x174876E8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,FB0F8B1551529C40AC597FA371FB4512)) ... skipped because path does not exist
+1:091  0:000  Custom entry 2 FullTitle:"linux" Path:"\EFI\ubuntu\grubx64.efi" Type:4 Flags:0x0 matching Volume:"5309394B-B42B-4A6E-8393-4A043DB32798"
+1:091  0:000      Checking volume "ác" (PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,5FDE1B17-28DD-43AF-B43A-4221AFF8D4D6,0x28,0x424C0F68)) ... skipped
+1:091  0:000      Checking volume "qÛ" (PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,E871FAB6-718D-4421-B02D-C20267FD0AA3,0x424C0F90,0xEBD6300)) ... skipped
+1:091  0:000      Checking volume "}" (PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(3,GPT,A526B9DE-77EE-4CDF-9143-688D21A61CAC,0x51097290,0x6402570)) ... skipped
+1:091  0:000      Checking volume "mac" (PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(4,GPT,E760A3E4-2BEF-44ED-8F90-C40FDB23CE38,0x57499800,0x37ED258)) ... skipped
+1:091  0:000      Checking volume "time" (PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(5,GPT,456C65BF-F5FB-4CF5-84F4-F38E72BF7651,0x5ACC6A58,0xDF7CDA8)) ... skipped
+1:091  0:000      Checking volume "EFI" (PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0xFFFF,0x0)\HD(1,GPT,5309394B-B42B-4A6E-8393-4A043DB32798,0x28,0x71FD8)) ... match!
+1:097  0:006  Custom settings: <null string>.plist will  be applied
+1:097  0:000      Checking volume "˚ﬂ" (PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0xFFFF,0x0)\HD(3,GPT,73D2269A-1AC8-453B-A0AB-5AF65E105139,0x16C800,0x76EF3A0)) ... skipped
+1:097  0:000      Checking volume "" (PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0xFFFF,0x0)\HD(4,GPT,969D92B3-788E-4504-A536-F13464DBC3C6,0x785C000,0x110000)) ... skipped
+1:097  0:000      Checking volume "oˆ" (PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0xFFFF,0x0)\HD(5,GPT,7A5600FC-14ED-4DF9-BD9E-83257F72FD63,0x796C008,0x7510287)) ... skipped
+1:097  0:000      Checking volume "Preboot" (PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x5,0xFFFF,0x0)\HD(3,GPT,16E8C12E-B10E-4A8B-8585-8E9922E7292E,0x209BBFA0,0x174876E8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,C9438C3F511DB54D92E5BD0B35B4B49F)) ... skipped because volume is hidden
+1:097  0:000      Checking volume "High Sierra" (PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x5,0xFFFF,0x0)\HD(3,GPT,16E8C12E-B10E-4A8B-8585-8E9922E7292E,0x209BBFA0,0x174876E8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,412D2A394934513F96003051C6EB1AA5)) ... skipped
+1:097  0:000      Checking volume "Recovery" (PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x5,0xFFFF,0x0)\HD(3,GPT,16E8C12E-B10E-4A8B-8585-8E9922E7292E,0x209BBFA0,0x174876E8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,92C081DF9A2B1A4C99936C4037F6B68F)) ... skipped because volume is hidden
+1:097  0:000      Checking volume "VM" (PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x5,0xFFFF,0x0)\HD(3,GPT,16E8C12E-B10E-4A8B-8585-8E9922E7292E,0x209BBFA0,0x174876E8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,FB0F8B1551529C40AC597FA371FB4512)) ... skipped
+1:097  0:000  === [ ScanLoader ] ========================================
+1:097  0:000  - [03]: 'ác'
+1:097  0:000  - [04]: 'qÛ'
+1:098  0:000  - [05]: '}'
+1:098  0:000  - [06]: 'mac'
+1:098  0:000  - [07]: 'time'
+1:098  0:000  - [10]: 'EFI'
+1:102  0:004          AddLoaderEntry for Volume Name=EFI
+1:102  0:000       skipped because path `PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0xFFFF,0x0)\HD(1,GPT,5309394B-B42B-4A6E-8393-4A043DB32798,0x28,0x71FD8)\EFI\microsoft\Boot\bootmgfw.efii` already exists for another entry!
+1:103  0:000          AddLoaderEntry for Volume Name=EFI
+1:103  0:000          skipped because entry is hidden
+1:103  0:000  - [12]: '˚ﬂ'
+1:103  0:000  - [13]: ''
+1:103  0:000  - [14]: 'oˆ'
+1:103  0:000  - [18]: 'Preboot', hidden
+1:103  0:000  - [19]: 'High Sierra'
+1:154  0:051          AddLoaderEntry for Volume Name=High Sierra
+1:154  0:000       skipped because path `PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x5,0xFFFF,0x0)\HD(3,GPT,16E8C12E-B10E-4A8B-8585-8E9922E7292E,0x209BBFA0,0x174876E8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,412D2A394934513F96003051C6EB1AA5)\System\Library\CoreServices\boot.efii` already exists for another entry!
+1:161  0:007  - [20]: 'Recovery', hidden
+1:161  0:000  - [21]: 'VM'
+1:161  0:000  === [ AddCustomTool ] =====================================
+1:164  0:003  === [ GetEfiBootDeviceFromNvram ] =========================
+1:164  0:000   - efi-boot-device-data: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0xFFFF,0x0)\HD(1,GPT,5309394B-B42B-4A6E-8393-4A043DB32798,0x28,0x71FD8)\EFI\ubuntu\grubx64.efii
+1:164  0:000    - Volume: 'PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0xFFFF,0x0)\HD(1,GPT,5309394B-B42B-4A6E-8393-4A043DB32798,0x28,0x71FD8)'
+1:164  0:000    - LoaderPath: '\EFI\ubuntu\grubx64.efi'
+1:164  0:000    - Guid = 5309394B-B42B-4A6E-8393-4A043DB32798
+1:164  0:000  === [ FindStartupDiskVolume ] =============================
+1:164  0:000    - Volume: partition = PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0xFFFF,0x0)\HD(1,GPT,5309394B-B42B-4A6E-8393-4A043DB32798,0x28,0x71FD8)
+1:164  0:000     - searching for that partition and loader '\EFI\ubuntu\grubx64.efi'
+1:164  0:000      - found entry 2. 'linux', Volume 'EFI', '\EFI\ubuntu\grubx64.efi'
+1:164  0:000  Boot redirected to Entry 2. 'linux'
+1:164  0:000  DefaultIndex=2 and MainMenu.EntryCount=7
+1:986  0:821  GUI ready
+4:451  2:464  BootVariable of the entry is empty
+4:451  0:000  === [ StartLoader ] =======================================
+4:451  0:000  Finally: ExternalClock=25MHz BusSpeed=99769kHz CPUFreq=2494MHz PIS: hw.busfrequency=100000000Hz
+4:451  0:000  Loading boot.efi  status=Success
+4:491  0:040  GetOSVersion: 10.14.1 (18B75)
+4:491  0:000  CSR_CFG: CSR_ALLOW_UNTRUSTED_KEXTS | CSR_ALLOW_UNRESTRICTED_FS | CSR_ALLOW_TASK_FOR_PID | CSR_ALLOW_UNRESTRICTED_DTRACE | CSR_ALLOW_UNRESTRICTED_NVRAM
+4:491  0:000  Filtering KextPatches:
+4:491  0:000   - [00]: AppleHDA (Expect 4 matches) :: BinPatch :: [OS: 10.14.1 | MatchOS: All | MatchBuild: All] ==> allowed
+4:491  0:000   - [01]: AppleHDA (Expect 4 matches) :: BinPatch :: [OS: 10.14.1 | MatchOS: All | MatchBuild: All] ==> allowed
+4:491  0:000   - [02]: disabled:AppleIntelFramebufferAzul (HDMI-audio, port 0105, 0x0a2e0008, 0x0a16000c, 0x0a2e000d, 0x0a26000d) :: BinPatch :: [OS: 10.14.1 | MatchOS: All | MatchBuild: All] ==> allowed
+4:491  0:000   - [03]: disabled:AppleIntelFramebufferAzul (HDMI-audio, port 0204(12), 0x0a260005 0x0a260006) :: BinPatch :: [OS: 10.14.1 | MatchOS: All | MatchBuild: All] ==> allowed
+4:491  0:000   - [04]: AppleHDA (Expect 4 matches) :: BinPatch :: [OS: 10.14.1 | MatchOS: All | MatchBuild: All] ==> allowed
+4:491  0:000   - [05]: AppleIntelFramebufferAzul (Enable 9MB cursor bytes, 0x0a260006) :: BinPatch :: [OS: 10.14.1 | MatchOS: All | MatchBuild: All] ==> allowed
+4:491  0:000   - [06]: disabled:AppleIntelFramebufferAzul (HDMI-audio, port 0105, 0x0a260005 0x0a260006, 0x0d220003, 0x0a2e000a, 0x0a26000a) :: BinPatch :: [OS: 10.14.1 | MatchOS: All | MatchBuild: All] ==> allowed
+4:491  0:000   - [07]: disabled:AppleIntelFramebufferAzul (Enable 128MB DVMT-prealloc, 0x0a2e0008) :: BinPatch :: [OS: 10.14.1 | MatchOS: All | MatchBuild: All] ==> allowed
+4:491  0:000   - [08]: AppleUSBXHCIPCI (remove port limit) :: BinPatch :: [OS: 10.14.1 | MatchOS: All | MatchBuild: All] ==> allowed
+4:491  0:000   - [09]: disabled:AppleIntelFramebufferAzul (HDMI-audio, port 0105(12), 0x0a2e0008, 0x0a16000c, 0x0a2e000d, 0x0a26000d) :: BinPatch :: [OS: 10.14.1 | MatchOS: All | MatchBuild: All] ==> allowed
+4:491  0:000   - [10]: disabled:AppleIntelFrameBufferAzul (Enable internal display after sleep for 0x0a2e000a, 0x0a26000a) :: BinPatch :: [OS: 10.14.1 | MatchOS: All | MatchBuild: All] ==> allowed
+4:491  0:000   - [11]: disabled:AppleIntelFramebufferAzul (HDMI-audio, port 0204, 0x0a2e0008, 0x0a16000c, 0x0a2e000d, 0x0a26000d) :: BinPatch :: [OS: 10.14.1 | MatchOS: All | MatchBuild: All] ==> allowed
+4:491  0:000   - [12]: disabled:IOGraphicsFamily (Boot graphics glitch, 10.10.x/10.11.x (credit lisai9093, cecekpawon)) :: BinPatch :: [OS: 10.14.1 | MatchOS: All | MatchBuild: All] ==> allowed
+4:491  0:000   - [13]: disabled:IOGraphicsFamily (Boot graphics glitch, 10.10.2/10.10.3) :: BinPatch :: [OS: 10.14.1 | MatchOS: All | MatchBuild: All] ==> allowed
+4:491  0:000   - [14]: disabled:AppleIntelFramebufferAzul (HDMI-audio, port 0204, 0x0a260005 0x0a260006) :: BinPatch :: [OS: 10.14.1 | MatchOS: All | MatchBuild: All] ==> allowed
+4:491  0:000   - [15]: disabled:AppleIntelFramebufferAzul (Enable 96MB DVMT-prealloc, 0x0a2e0008) :: BinPatch :: [OS: 10.14.1 | MatchOS: All | MatchBuild: All] ==> allowed
+4:491  0:000   - [16]: disabled:AppleIntelFramebufferAzul (HDMI-audio, port 0204(12), 0x0a2e0008, 0x0a16000c, 0x0a2e000d, 0x0a26000d) :: BinPatch :: [OS: 10.14.1 | MatchOS: All | MatchBuild: All] ==> allowed
+4:491  0:000   - [17]: disabled:AppleIntelFramebufferAzul (Enable 128MB DVMT-prealloc, 48MB framebuffer, 48MB cursor bytes, 0x0a260006) :: BinPatch :: [OS: 10.14.1 | MatchOS: All | MatchBuild: All] ==> allowed
+4:491  0:000   - [18]: disabled:AppleIntelFramebufferAzul (HDMI-audio, port 0105(12), 0x0a260005 0x0a260006, 0x0d220003, 0x0a2e000a, 0x0a26000a) :: BinPatch :: [OS: 10.14.1 | MatchOS: All | MatchBuild: All] ==> allowed
+4:491  0:000   - [19]: IOGraphicsFamily (10.12+-Á¨¨‰∫åÈò∂ÊÆµËä±Â±èË°•‰∏Å) :: BinPatch :: [OS: 10.14.1 | MatchOS: 10.12.x | MatchBuild: All] ==> not allowed
+4:491  0:000   - [20]: IOGraphicsFamily (10.13+-Á¨¨‰∫åÈò∂ÊÆµËä±Â±èË°•‰∏Å) :: BinPatch :: [OS: 10.14.1 | MatchOS: 10.13.x | MatchBuild: All] ==> not allowed
+4:491  0:000  Will not patch boot.efi
+4:491  0:000  === [ PatchSmbios ] =======================================
+4:491  0:000  insert table 9 for dev 0:2
+4:491  0:000  insert table 9 for dev 0:0
+4:491  0:000  Trusting SMBIOS...
+4:491  0:000  Channels: 2
+4:491  0:000  Interleave: 0 2 1 3 4 6 5 7 8 10 9 11 12 14 13 15 16 18 17 19 20 22 21 23
+4:491  0:000   partNum=CT51264BF160BJ.C8F
+4:491  0:000  SMBIOS Type 17 Index = 0 => 0 0:
+4:492  0:000  BANK 0 DIMM0 1600MHz 4096MB
+4:492  0:000   partNum unknown
+4:492  0:000  Type17->Manufacturer corrected by SMBIOS from NoName to 1315
+4:492  0:000  SMBIOS Type 17 Index = 1 => 2 2:
+4:492  0:000  BANK 1 DIMM0 1600MHz 4096MB
+4:492  0:000  mTotalSystemMemory = 8192
+4:492  0:000  NumberOfMemoryDevices = 2
+4:492  0:000  Type20[0]->End = 0x3FFFFF, Type17[0] = 0x1000
+4:492  0:000  Type20[1]->End = 0x7FFFFF, Type17[1] = 0x3000
+4:492  0:000  Table 131 is present, CPUType=31
+4:492  0:000  Change to: 705
+4:492  0:000  === [ PatchACPI ] =========================================
+4:492  0:000  Xsdt reallocation done
+4:492  0:000  old FADT length=10C
+4:492  0:000   SignatureFixup: 0xB661AEE2 -> 0x0
+4:492  0:000  Found OperationRegion(GNVS, SystemMemory, C97A8C18, ...)
+4:492  0:000  Found OperationRegion(MCHT, SystemMemory, FED10000, ...)
+4:492  0:000  Found OperationRegion(RCRB, SystemMemory, FED1C000, ...)
+4:492  0:000  Found OperationRegion(MCA1, SystemMemory, F7FD0000, ...)
+4:492  0:000  Found OperationRegion(MCA1, SystemMemory, F7FD0000, ...)
+4:492  0:000  Found OperationRegion(CPSB, SystemMemory, C9108E18, ...)
+4:492  0:000  Found OperationRegion(TMMB, SystemMemory, FED40000, ...)
+4:492  0:000  Found OperationRegion(RAM_, SystemMemory, FF700100, ...)
+4:492  0:000  Found OperationRegion(RAM2, SystemMemory, FF70F100, ...)
+4:495  0:003  DSDT found in Clover volume OEM folder: EFI\CLOVER\ACPI\patched\DSDT.aml
+4:495  0:000  Apply DsdtFixMask=0x10000000
+4:495  0:000     drop _DSM mask=0x0000
+4:495  0:000  === [ FixBiosDsdt ] =======================================
+4:495  0:000  VideoCard devID=0x4168086
+4:495  0:000  DisplayADR1[0] = 0x20000, DisplayADR2[0] = 0xFFFE
+4:605  0:109  USBADR[0] = 0x140000 and PCIe = 0xFFFE
+4:605  0:000  USBADR[1] = 0x1A0000 and PCIe = 0xFFFE
+4:715  0:109  Found Airport Atheros at 0x1C0002, 0x0, DeviceID=0x0034
+4:715  0:000  USBADR[2] = 0x1D0000 and PCIe = 0xFFFE
+4:715  0:000    0 replacements
+4:715  0:000  first CPU found at 9D46 offset 9D4A
+4:715  0:000  score candidate at 9D42
+4:715  0:000  score inserted in acpi_cpu_score _PR_
+4:715  0:000  Found ACPI CPU: CPU0 | CPU1 | CPU2 | CPU3 | CPU4 | CPU5 | CPU6 | CPU7 , within the score: _PR_
+4:715  0:000    indirect name=SRCB
+4:715  0:000    indirect name=SRMB
+4:715  0:000    indirect name=SRMB
+4:715  0:000  PreCleanup XSDT: count=15, length=156
+4:715  0:000  PreCleanup XSDT, corrected XSDT: count=15, length=156
+4:715  0:000  === [ ACPIDropTables ] ====================================
+4:715  0:000  === [ DropSSDT ] ==========================================
+4:715  0:000  Drop tables from XSDT, SIGN=SSDT TableID= Length=0
+4:715  0:000   Table[5]: SSDT  PARADISE  3986 dropped
+4:715  0:000   Table[6]: SSDT  PARADISE  1337 dropped
+4:715  0:000   Table[7]: SSDT  PARADISE  2776 dropped
+4:715  0:000   Table[10]: SSDT  PARADISE  789 dropped
+4:715  0:000   Table[11]: SSDT  PARADISE  7245 dropped
+4:715  0:000   Table[12]: SSDT  PARADISE  3886 dropped
+4:715  0:000   Table[13]: SSDT  PARADISE  7220 dropped
+4:715  0:000  === [ ACPIPatchedAML ] ====================================
+4:715  0:000  Sorted
+4:715  0:000  Inserting table[0]:SSDT.aml from EFI\CLOVER\ACPI\patched: ... Not Found
+4:715  0:000  Inserting table[1]:SSDT-0.aml from EFI\CLOVER\ACPI\patched: size=5322 ... Success
+4:717  0:002  Inserting table[2]:SSDT-1.aml from EFI\CLOVER\ACPI\patched: size=1337 ... Success
+4:718  0:000  Inserting table[3]:SSDT-2.aml from EFI\CLOVER\ACPI\patched: size=2893 ... Success
+4:718  0:000  Inserting table[4]:SSDT-3.aml from EFI\CLOVER\ACPI\patched: size=826 ... Success
+4:719  0:000  Inserting table[5]:SSDT-4.aml from EFI\CLOVER\ACPI\patched: size=7534 ... Success
+4:719  0:000  Inserting table[6]:SSDT-5.aml from EFI\CLOVER\ACPI\patched: size=4099 ... Success
+4:720  0:000  Inserting table[7]:SSDT-6.aml from EFI\CLOVER\ACPI\patched: size=6066 ... Success
+4:720  0:000  Inserting table[8]:SSDT-7.aml from EFI\CLOVER\ACPI\patched: size=1615 ... Success
+4:721  0:000  Inserting table[9]:SSDT-8.aml from EFI\CLOVER\ACPI\patched: size=1147 ... Success
+4:721  0:000  Inserting table[10]:SSDT-9.aml from EFI\CLOVER\ACPI\patched: size=394 ... Success
+4:722  0:000  Inserting table[11]:SSDT-10.aml from EFI\CLOVER\ACPI\patched: ... Not Found
+4:722  0:000  Inserting table[12]:SSDT-11.aml from EFI\CLOVER\ACPI\patched: ... Not Found
+4:722  0:000  Inserting table[13]:SSDT-12.aml from EFI\CLOVER\ACPI\patched: ... Not Found
+4:722  0:000  Inserting table[14]:SSDT-13.aml from EFI\CLOVER\ACPI\patched: ... Not Found
+4:722  0:000  Inserting table[15]:SSDT-14.aml from EFI\CLOVER\ACPI\patched: ... Not Found
+4:722  0:000  Inserting table[16]:SSDT-15.aml from EFI\CLOVER\ACPI\patched: ... Not Found
+4:722  0:000  Inserting table[17]:SSDT-16.aml from EFI\CLOVER\ACPI\patched: ... Not Found
+4:722  0:000  Inserting table[18]:SSDT-17.aml from EFI\CLOVER\ACPI\patched: ... Not Found
+4:722  0:000  Inserting table[19]:SSDT-18.aml from EFI\CLOVER\ACPI\patched: ... Not Found
+4:722  0:000  Inserting table[20]:SSDT-19.aml from EFI\CLOVER\ACPI\patched: ... Not Found
+4:722  0:000  CPUBase=0 and ApicCPUBase=1 ApicCPUNum=8
+4:722  0:000  Maximum control=0x19
+4:722  0:000  Turbo control=0x23
+4:722  0:000  P-States: min 0x8, max 0x23
+4:722  0:000  SSDT with plugin-type without P-States is generated
+4:722  0:000  Cleanup XSDT: count=26, length=244
+4:722  0:000  corrected XSDT count=19, length=188
+4:722  0:000  === [ RestSetup macOS ] ===================================
+4:722  0:000  --- Custom EDID Table size:128
+4:722  0:000  000  |  00  FF  FF  FF  FF  FF  FF  00  0D  AE
+4:722  0:000  010  |  35  17  00  00  00  00  32  16  01  04
+4:722  0:000  020  |  95  26  15  78  02  D4  95  A3  55  50
+4:722  0:000  030  |  9D  27  0F  50  54  00  00  00  01  01
+4:722  0:000  040  |  01  01  01  01  01  01  01  01  01  01
+4:722  0:000  050  |  01  01  01  01  B4  3B  80  4A  71  38
+4:722  0:000  060  |  34  40  30  20  35  00  7E  D7  10  00
+4:722  0:000  070  |  00  18  00  00  00  FE  00  4E  31  37
+4:722  0:000  080  |  33  48  47  45  2D  45  31  31  0A  20
+4:722  0:000  090  |  00  00  00  FE  00  43  4D  4E  0A  20
+4:722  0:000  100  |  20  20  20  20  20  20  20  20  00  00
+4:722  0:000  110  |  00  FE  00  4E  31  37  33  48  47  45
+4:722  0:000  120  |  2D  45  31  31  0A  20  00  E0
+4:722  0:000      VendorID = 0xAE0D changed to 0x3502
+4:722  0:000      ProductID = 0x1735 changed to 0x5941
+4:722  0:000  --- Patched EDID Table size:128
+4:722  0:000  000  |  00  FF  FF  FF  FF  FF  FF  00  02  35
+4:722  0:000  010  |  41  59  00  00  00  00  32  16  01  04
+4:722  0:000  020  |  95  26  15  78  02  D4  95  A3  55  50
+4:722  0:000  030  |  9D  27  0F  50  54  00  00  00  01  01
+4:722  0:000  040  |  01  01  01  01  01  01  01  01  01  01
+4:722  0:000  050  |  01  01  01  01  B4  3B  80  4A  71  38
+4:722  0:000  060  |  34  40  30  20  35  00  7E  D7  10  00
+4:722  0:000  070  |  00  18  00  00  00  FE  00  4E  31  37
+4:722  0:000  080  |  33  48  47  45  2D  45  31  31  0A  20
+4:722  0:000  090  |  00  00  00  FE  00  43  4D  4E  0A  20
+4:722  0:000  100  |  20  20  20  20  20  20  20  20  00  00
+4:722  0:000  110  |  00  FE  00  4E  31  37  33  48  47  45
+4:722  0:000  120  |  2D  45  31  31  0A  20  00  16
+4:722  0:000  Intel HD Graphics 4600 [8086:0416] :: PciRoot(0x0)\Pci(0x2,0x0)
+4:722  0:000    Found Full HD Display - 16:9 :: Width=1920 Height=1080
+4:722  0:000    AAPL00,override-no-connect: added
+4:722  0:000    Beginning DualLink auto-detection
+4:722  0:000    High Resolution Display
+4:722  0:000    AAPL00,DualLink = 1
+4:722  0:000    FakeID Intel GFX = 0x04128086
+4:722  0:000    ig-platform-id = 0x0A260006
+4:722  0:000  Intel GFX revision  = 0x6
+4:722  0:000  stringlength = 3226
+4:722  0:000  CurrentMode: Width=1920 Height=1080
+4:722  0:000  Beginning FSInjection
+4:722  0:000  Blocking kext caches
+FSInjectionInstall ...
+- Our FSI_SIMPLE_FILE_SYSTEM_PROTOCOL installed on handle: C5A22118
+FSInjectionInstall ...
+- Our FSI_SIMPLE_FILE_SYSTEM_PROTOCOL installed on handle: C5A22118
+4:728  0:005  Use origin smbios table type 1 guid.
+4:730  0:001    Force kext: System\Library\Extensions\IONetworkingFamily.kext
+4:779  0:048      Force PlugIn kext: System\Library\Extensions\IONetworkingFamily.kext\Contents\PlugIns\nvenet.kext
+4:795  0:016      Force PlugIn kext: System\Library\Extensions\IONetworkingFamily.kext\Contents\PlugIns\AppleEthernetAquantiaAqtion.kext
+4:810  0:014      Force PlugIn kext: System\Library\Extensions\IONetworkingFamily.kext\Contents\PlugIns\AppleBCM5701Ethernet.kext
+4:827  0:017      Force PlugIn kext: System\Library\Extensions\IONetworkingFamily.kext\Contents\PlugIns\AppleIntelI210Ethernet.kext
+4:841  0:014      Force PlugIn kext: System\Library\Extensions\IONetworkingFamily.kext\Contents\PlugIns\Intel82574L.kext
+4:855  0:014      Force PlugIn kext: System\Library\Extensions\IONetworkingFamily.kext\Contents\PlugIns\IOEthernetAVBController.kext
+4:868  0:012      Force PlugIn kext: System\Library\Extensions\IONetworkingFamily.kext\Contents\PlugIns\AppleYukon2.kext
+4:893  0:025      Force PlugIn kext: System\Library\Extensions\IONetworkingFamily.kext\Contents\PlugIns\AppleEthernetAquantiaAqtionFirmware.kext
+4:908  0:015      Force PlugIn kext: System\Library\Extensions\IONetworkingFamily.kext\Contents\PlugIns\AppleIntel8254XEthernet.kext
+4:921  0:012      Force PlugIn kext: System\Library\Extensions\IONetworkingFamily.kext\Contents\PlugIns\AppleVmxnet3Ethernet.kext
+4:934  0:013      Force PlugIn kext: System\Library\Extensions\IONetworkingFamily.kext\Contents\PlugIns\mDNSOffloadUserClient.kext
+4:947  0:012  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\Other
+4:948  0:001  SetStartupDiskVolume:
+4:948  0:000    * Volume: 'High Sierra'
+4:948  0:000    * LoaderPath: '<null string>'
+4:948  0:000    * DevPath: High Sierra
+4:948  0:000    * GUID = 16E8C12E-B10E-4A8B-8585-8E9922E7292E
+4:954  0:006    * efi-boot-device: <array><dict><key>IOMatch</key><dict><key>IOProviderClass</key><string>IOMedia</string><key>IOPropertyMatch</key><dict><key>UUID</key><string>16E8C12E-B10E-4A8B-8585-8E9922E7292E</string></dict></dict></dict></array>
+4:965  0:011  SetScreenResolution: 1920x1080 - already set
+4:966  0:000  Custom boot is disabled
+4:966  0:000  Closing log
