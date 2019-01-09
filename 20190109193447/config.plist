@@ -197,13 +197,19 @@
 		<key>#DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Arguments</key>
-		<string>-cdfon -igfxnohdmi nv_disable=1</string>
+		<string>-v</string>
+		<key>DefaultVolume</key>
+		<string>LastBootedVolume</string>
+		<key>Legacy</key>
+		<string>LegacyBiosDefault</string>
 		<key>NeverHibernate</key>
-		<true/>
+		<false/>
 		<key>Secure</key>
 		<false/>
 		<key>Timeout</key>
 		<integer>5</integer>
+		<key>XMPDetection</key>
+		<false/>
 	</dict>
 	<key>Comment</key>
 	<string>This file is for Haswell graphics that require FakeID=0x04128086</string>
@@ -212,7 +218,7 @@
 		<key>Audio</key>
 		<dict>
 			<key>Inject</key>
-			<integer>0</integer>
+			<integer>3</integer>
 		</dict>
 		<key>FakeID</key>
 		<dict>
@@ -246,24 +252,50 @@
 				<dict>
 					<key>Disabled</key>
 					<false/>
+					<key>FullTitle</key>
+					<string>Windows</string>
+					<key>Ignore</key>
+					<false/>
+					<key>Path</key>
+					<string>\EFI\Microsoft\Boot\bootmgfw.efi</string>
+					<key>Type</key>
+					<string>Windows</string>
+					<key>Volume</key>
+					<string>5309394B-B42B-4A6E-8393-4A043DB32798</string>
+				</dict>
+				<dict>
+					<key>Disabled</key>
+					<false/>
+					<key>FullTitle</key>
+					<string>MAC os</string>
 					<key>Hidden</key>
 					<false/>
 					<key>Ignore</key>
 					<false/>
 					<key>NoCaches</key>
-					<false/>
+					<true/>
+					<key>Path</key>
+					<string>\System\Library\CoreServices\boot.efi</string>
 					<key>Type</key>
-					<string>OSXRecovery</string>
+					<string>OSX</string>
+					<key>Volume</key>
+					<string>787ED0B8-99C4-4691-A61C-0A17EE1F6434</string>
 				</dict>
 				<dict>
 					<key>Disabled</key>
 					<false/>
+					<key>FullTitle</key>
+					<string>linux</string>
+					<key>Hidden</key>
+					<false/>
 					<key>Ignore</key>
 					<false/>
-					<key>Title</key>
-					<string>Windows</string>
+					<key>Path</key>
+					<string>\EFI\ubuntu\grubx64.efi</string>
 					<key>Type</key>
-					<string>Windows</string>
+					<string>Linux</string>
+					<key>Volume</key>
+					<string>5309394B-B42B-4A6E-8393-4A043DB32798</string>
 				</dict>
 			</array>
 		</dict>
@@ -285,12 +317,14 @@
 			<key>Legacy</key>
 			<false/>
 			<key>Linux</key>
-			<true/>
+			<false/>
 			<key>Tool</key>
-			<true/>
+			<false/>
 		</dict>
+		<key>ScreenResolution</key>
+		<string>1920x1080</string>
 		<key>Theme</key>
-		<string>BGM</string>
+		<string>SimpleThemeDark</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
@@ -425,13 +459,57 @@
 	<dict>
 		<key>#ProductName-MacBookAir</key>
 		<string>MacBookAir6,2</string>
-		<key>ProductName</key>
-		<string>MacBookPro11,1</string>
-		<key>Trust</key>
+		<key>BiosReleaseDate</key>
+		<string>04/10/18</string>
+		<key>BiosVendor</key>
+		<string>Apple Inc.</string>
+		<key>BiosVersion</key>
+		<string>MBP61.88Z.005D.B00.1804100943</string>
+		<key>Board-ID</key>
+		<string>Mac-F22586C8</string>
+		<key>BoardManufacturer</key>
+		<string>Apple Inc.</string>
+		<key>BoardSerialNumber</key>
+		<string>CK0510AGW2NWF</string>
+		<key>BoardType</key>
+		<integer>10</integer>
+		<key>BoardVersion</key>
+		<string>1.0</string>
+		<key>ChassisAssetTag</key>
+		<string>MacBook-Aluminum</string>
+		<key>ChassisManufacturer</key>
+		<string>Apple Inc.</string>
+		<key>ChassisType</key>
+		<string>0x08</string>
+		<key>EfiVersion</key>
+		<string>96.0.0.0.0</string>
+		<key>Family</key>
+		<string>MacBook Pro</string>
+		<key>FirmwareFeatures</key>
+		<string>0xC00DE137</string>
+		<key>FirmwareFeaturesMask</key>
+		<string>0xFF1FFF3F</string>
+		<key>LocationInChassis</key>
+		<string>Part Component</string>
+		<key>Manufacturer</key>
+		<string>Apple Inc.</string>
+		<key>Mobile</key>
 		<true/>
+		<key>PlatformFeature</key>
+		<string>0xFFFF</string>
+		<key>ProductName</key>
+		<string>MacBookPro6,2</string>
+		<key>SerialNumber</key>
+		<string>CK052RY3AGW</string>
+		<key>SmUUID</key>
+		<string>8F9837E7-2B5C-4EA0-A34A-C477C32AB271</string>
+		<key>Version</key>
+		<string>1.0</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
+		<key>CustomUUID</key>
+		<string>B0BC2025-B353-5CE3-A2D3-8C96ABB955F2</string>
 		<key>InjectKexts</key>
 		<string>Detect</string>
 	</dict>
